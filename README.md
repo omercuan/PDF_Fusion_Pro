@@ -48,7 +48,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## 📦 Bağımlılıklar
+## Bağımlılıklar
 
 ```
 PyQt6      → Grafik arayüz (GUI)
@@ -57,7 +57,7 @@ pdf2docx   → PDF'den Word'e dönüşüm
 docx2pdf   → Word'den PDF'e dönüşüm (MS Word gerektirir)
 ```
 
-## 🔨 Executable Oluşturma (PyInstaller)
+## Executable Oluşturma (PyInstaller)
 
 Kendi `.exe` dosyanı oluşturmak için:
 
