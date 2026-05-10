@@ -1,8 +1,8 @@
-# 📄 PDF Fusion Pro
+#  PDF Fusion Pro
 
 Modern, hızlı ve kullanımı kolay PDF araç seti. PyQt6 ile geliştirilmiş masaüstü uygulaması.
 
-## ✨ Özellikler
+## Özellikler
 
 | Özellik | Açıklama |
 |---|---|
@@ -10,7 +10,7 @@ Modern, hızlı ve kullanımı kolay PDF araç seti. PyQt6 ile geliştirilmiş m
 | 📝 **PDF → Word** | PDF dosyalarını düzenlenebilir `.docx` formatına dönüştür |
 | 📑 **Word → PDF** | `.docx` / `.doc` dosyalarını profesyonel PDF'ye dönüştür |
 
-## 🖥️ Masaüstü Kısayolu Oluşturma (Logolu)
+## Masaüstü Kısayolu Oluşturma (Logolu)
 
 Uygulama **ilk açıldığında** `icon.ico` dosyasını otomatik olarak proje klasörüne oluşturur.
 
@@ -23,7 +23,7 @@ Uygulama **ilk açıldığında** `icon.ico` dosyasını otomatik olarak proje k
 4. Kısayola sağ tıkla → **Özellikler** → **İkon Değiştir**
 5. Proje klasöründeki `icon.ico` dosyasını seç → Tamam
 
-## 🚀 Kurulum
+## Kurulum
 
 ### Gereksinimler
 - Python 3.10 veya üzeri
@@ -68,7 +68,7 @@ pyinstaller app.spec
 
 Çıktı `dist/` klasöründe oluşur.
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 modernize-pdf-conversion-tool/
@@ -79,11 +79,11 @@ modernize-pdf-conversion-tool/
 └── README.md        # Bu dosya
 ```
 
-## ⚠️ Notlar
+## Notlar
 
 - **Word → PDF** özelliği yalnızca bilgisayarınızda **Microsoft Word** yüklüyse çalışır.
 - PDF → Word dönüşümünde karmaşık düzenler tam olarak korunmayabilir; bu `pdf2docx` kütüphanesinin doğal bir sınırlamasıdır.
 
-## 📄 Lisans
+## Lisans
 
 MIT License — dilediğiniz gibi kullanabilirsiniz.
