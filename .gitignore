@@ -1,0 +1,47 @@
+# ─── PyInstaller Build Çıktıları ───────────────────────────────────────
+build/
+dist/
+*.spec.bak
+
+# ─── Derlenmiş Executable & İkon ──────────────────────────────────────
+*.exe
+*.app
+*.pkg
+*.ico
+
+# ─── Python Cache ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ─── Sanal Ortamlar ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ─── IDE / Editör Dosyaları ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# ─── Sistem Dosyaları ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Geçici & Log Dosyaları ────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+
+# ─── Paket Dağıtım Dosyaları ───────────────────────────────────────────
+*.egg-info/
+.eggs/
+dist/
+build/
